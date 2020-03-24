@@ -1,1 +1,1 @@
-**Workshop para iniciantes em programção oferecido pelo Rocketseat**
+**Workshop para iniciantes em programação oferecido pelo Rocketseat**
