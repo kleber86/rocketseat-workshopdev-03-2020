@@ -17,13 +17,16 @@
                 background: none;
                 
             }
-            .fat{
+            button.fat{
                 color: white;
                 background-color: #ff5E84;
             }
             #footer a{
                 color: #25282B;
                 text-decoration: none;
+            }
+            .hide{
+                display: none;
             }
         </style>
     </head>
@@ -42,5 +45,10 @@
         <button class="fat">Ver ideias</button>
 
         <p id="footer">Com ♥️ <a href="http://www.rocketseat.com.br">Rocketesat</a></p>
+        <script>
+            document.querySelector("button.fat").addEventListener("click", function(){
+                        document.querySelector("#footer").classList.toggle("hide")
+                    })
+        </script>
     </body>
 </html>
