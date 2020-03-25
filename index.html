@@ -12,12 +12,86 @@
     <div id="container">
         <section id="intro">
             <header>
-                <img src="logo.png" alt="Imagem da logomarca">
+                <a href="index.html">
+                    <img src="logo.png" alt="Imagem da logomarca">
+                </a>
             </header>
 
-            <main>
+            <main> <!-- Modal -->
+    <div id="modal" class="hide">
+        <div class="content">
+            <h1>Nova Ideia</h1>
+            <form action="">
+                <div class="input-wraper">
+                    <label for="title">Título da Ideia</label>
+                    <input type="text" name="title">
+                </div>
+
+                <div class="input-wraper">
+                    <label for="category">Categorias</label>
+                    <input type="text" name="category">
+                </div>
+
+                <div class="input-wraper">
+                    <label for="image">Link da imagem</label>
+                    <input type="text" name="image">
+                </div>
+
+                <div class="input-wrap</a>er">
+                    <label for="description">Descrição</label>
+                    <textarea name="description"cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="input-wraper">
+                    <label for="link">Link da Ideia</label>
+                    <input type="text" name="link">
+                </div>
+
+                <a href="#" onclick="onOff()">Voltar</a>
+                <button>Salvar</button>
+
+            </form>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
                 <p>
-                    Ficar em casa em períodos longos, não deve ser nada fácil.
+                    Ficar em casa em períodos longos,  <!-- Modal -->
+                    <div id="modal" class="hide">
+                        <div class="content">
+                            <h1>Nova Ideia</h1>
+                            <form action="">
+                                <div class="input-wraper">
+                                    <label for="title">Título da Ideia</label>
+                                    <input type="text" name="title">
+                                </div>
+                
+                                <div class="input-wraper">
+                                    <label for="category">Categorias</label>
+                                    <input type="text" name="category">
+                                </div>
+                
+                                <div class="input-wraper">
+                                    <label for="image">Link da imagem</label>
+                                    <input type="text" name="image">
+                                </div>
+                
+                                <div class="input-wraper">
+                                    <label for="description">Descrição</label>
+                                    <textarea name="description"cols="30" rows="10"></textarea>
+                                </div>
+                
+                                <div class="input-wraper">
+                                    <label for="link">Link da Ideia</label>
+                                    <input type="text" name="link">
+                                </div>
+                
+                                <a href="#" onclick="onOff()">Voltar</a>
+                                <button>Salvar</button>
+                
+                            </form>
+                        </div>
+                    </div>
+                    <script src="scripts.js"></script>não deve ser nada fácil.
                 </p>
                 <p>
                     Iremos catalogar ideias, <strong>brincadeiras, jogos, filmes, livros, cursos, dicas</strong> e tudo que
@@ -30,11 +104,11 @@
 
             <section id="buttons">
                 <button onclick="onOff()">+ Adicionar ideias</button>
-                <button class="fat">Ver ideias</button>
+                <a href="ideas.html" class="button">Ver ideias</a>
             </section>
 
             <footer>
-                <p id="footer">Com ♥️ <a href="http://www.rocketseat.com.br">Rocketesat</a></p>
+                <p id="footer">Com ♥️ <a target="_blank" href="http://www.rocketseat.com.br">Rocketesat</a></p>
             </footer>
             
         </section>
@@ -69,8 +143,43 @@
                     <div class="description">
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis, culpa eos. Dicta possimus libero aperiam architecto quas, animi accusantium? Voluptatem excepturi inventore distinctio eos fuga quo autem, reiciendis delectus recusandae?
                     </div>
-                    <a href="#">Ir para a ideia</a>
-                </div>
+                    <a href="#">Ir para a ideia</a> <!-- Modal -->
+                    <div id="modal" class="hide">
+                        <div class="content">
+                            <h1>Nova Ideia</h1>
+                            <form action="">
+                                <div class="input-wraper">
+                                    <label for="title">Título da Ideia</label>
+                                    <input type="text" name="title">
+                                </div>
+                
+                                <div class="input-wraper">
+                                    <label for="category">Categorias</label>
+                                    <input type="text" name="category">
+                                </div>
+                
+                                <div class="input-wraper">
+                                    <label for="image">Link da imagem</label>
+                                    <input type="text" name="image">
+                                </div>
+                
+                                <div class="input-wraper">
+                                    <label for="description">Descrição</label>
+                                    <textarea name="description"cols="30" rows="10"></textarea>
+                                </div>
+                
+                                <div class="input-wraper">
+                                    <label for="link">Link da Ideia</label>
+                                    <input type="text" name="link">
+                                </div>
+                
+                                <a href="#" onclick="onOff()">Voltar</a>
+                                <button>Salvar</button>
+                
+                            </form>
+                        </div>
+                    </div>
+                    <script src="scripts.js"></script>
             </div>
         </section>
     </div>
