@@ -130,7 +130,7 @@ footer a{
 /* Modal */
 #modal{
     background-color: #ff5E84;
-    position: absolute;
+    position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
