@@ -17,6 +17,7 @@ db.serialize(function() {
      /**
      * Inserir dados na tabela
      */
+/*
     const query = `
         INSERT INTO ideas(
             image,
@@ -33,13 +34,14 @@ db.serialize(function() {
         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis, culpa eos. Dicta possimus libero aperiam architecto quas, animi accusantium? Voluptatem excepturi inventore distinctio eos fuga quo autem, reiciendis delectus recusandae?",
         "https://www.rocketseat.com.br"
 ]
-/*
+
     db.run(query, values, function (err) {
         if(err) return console.log(err)
         console.log(this)
     })
 */
-     /**"
+
+     /**
      * Consultar dados na tabela
      */
 
